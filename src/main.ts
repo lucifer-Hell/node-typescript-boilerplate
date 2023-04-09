@@ -8,7 +8,7 @@ app.use(express.json()); // Parse JSON request bodies
 
 // Routes
 app.get("/", (_req: Request, res: Response) => {
-  res.send("<b>Hello, World! part seven</b>");
+  res.send("<b>Hello, World! part seven</b> ");
 });
 
 // Start the server
